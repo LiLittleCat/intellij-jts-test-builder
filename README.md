@@ -1,4 +1,4 @@
-<img src="src/main/resources/org/locationtech/jtstest/testbuilder/logo64.png" align="right" width="128" height="128" alt="icon"/>
+<img src="src/main/resources/META-INF/pluginIcon.svg" align="right" width="128" height="128" alt="icon"/>
 
 # JTS Test Builder
 
