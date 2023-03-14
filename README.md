@@ -3,8 +3,8 @@
 # JTS Test Builder
 
 ![Build](https://github.com/LiLittleCat/intellij-jts-test-builder/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/)](https://plugins.jetbrains.com/plugin/)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/)](https://plugins.jetbrains.com/plugin/)
+[![Version](https://img.shields.io/jetbrains/plugin/v/21252-jts-test-builder.svg)](https://plugins.jetbrains.com/plugin/21252-jts-test-builder)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/21252-jts-test-builder.svg)](https://plugins.jetbrains.com/plugin/21252-jts-test-builder)
 
 [The JTS Topology Suite](https://github.com/locationtech/jts) is a Java library for creating and manipulating vector geometry. It also provides a comprehensive set of geometry test cases, and the TestBuilder GUI application for working with and visualizing geometry and JTS functions.
 

@@ -36,6 +36,7 @@ jobs:
         id: properties
         shell: bash
         run: |
+          chmod +x ./gradlew
           CHANGELOG="$(cat << 'EOM' | sed -e 's/^[[:space:]]*$//g' -e '/./,$!d'
           ${{ github.event.release.body }}
           EOM
@@ -51,7 +52,6 @@ jobs:
         env:
           CHANGELOG: ${{ steps.properties.outputs.changelog }}
         run: |
-          chmod +x ./gradlew
           ./gradlew patchChangelog --release-note="$CHANGELOG"
 
       # Publish the plugin to the Marketplace
