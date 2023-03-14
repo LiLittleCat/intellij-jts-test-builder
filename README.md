@@ -30,8 +30,11 @@ This plugin just integrate the JTS TestBuilder into JetBrains IDEs.
 ## Usage
 
 - Open the JTS Test Builder window: <kbd>Tools</kbd> > <kbd>JTS Test Builder</kbd>
+
   ![tools](images/tools.png)
+
 - Right-click on the editor and select <kbd>JTS Test Builder</kbd>
+
   ![editor](images/editor.png)
 
 It will open the JTS Test Builder window.
