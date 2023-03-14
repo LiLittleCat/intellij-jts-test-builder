@@ -8,20 +8,9 @@
 
     <depends>com.intellij.modules.platform</depends>
     <actions>
-        <action id="myPluginAction" class="com.lilittlecat.jts.action.JTSTestBuilderAction" text="JTS Test Builder" icon="org.locationtech.jtstest.testbuilder.AppIcons.APP">
+        <action id="myPluginAction" class="com.lilittlecat.jts.action.JTSTestBuilderAction" text="JTS Test Builder" icon="/org/locationtech/jtstest/testbuilder/app-icon.gif">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
     </actions>
-
-    <extensions defaultExtensionNs="com.intellij">
-<!--        <toolWindow factoryClass="com.lilittlecat.jts.window.ChatGPTToolWindowFactory" icon="/icons/openai.svg" id="JTS Test Builder" anchor="right"/>-->
-<!--        <applicationConfigurable-->
-<!--                parentId="tools"-->
-<!--                instance="com.lilittlecat.jts.setting.ChatGPTSettingsConfigurable"-->
-<!--                id="com.lilittlecat.jts.setting.ChatGPTSettingsConfigurable"-->
-<!--                displayName="JTS Test Builder"/>-->
-<!--        <applicationService serviceImplementation="com.lilittlecat.jts.setting.ChatGPTSettingsState"/>-->
-
-    </extensions>
 </idea-plugin>

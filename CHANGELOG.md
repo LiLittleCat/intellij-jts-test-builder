@@ -4,5 +4,6 @@
 
 ## [Unreleased]
 
+## [1.0.0]
 ### Added
 - Support all JetBrains IDEs
